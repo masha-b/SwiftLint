@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "SwiftLint",
-    platforms: [.macOS(.v12)],
+    platforms: [.macOS(.v12), .iOS(.v13)],
     products: [
         .executable(name: "swiftlint", targets: ["swiftlint"]),
         .library(name: "SwiftLintFramework", targets: ["SwiftLintFramework"]),
